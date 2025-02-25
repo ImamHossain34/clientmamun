@@ -165,6 +165,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 10;
 }
 .headinfo div {
     padding: 7px 7px;
@@ -614,4 +615,89 @@ textarea.form-input {
 }
 .doctor-list3 li:active {
     color: #8c9676d0;
+}
+
+.container2ndflex {
+    display: flex;
+}
+
+.container2nd {
+    width: 100%;
+    margin: 60% 0 0 0;
+    padding: 5px;
+}
+
+
+/* mobile */
+@media screen and (max-width: 480px) {
+    .container2nd {
+        /* width: 100%; */
+        margin: 44% 0 0 0;
+    }
+
+    .consultantandowner {
+        font-size: 14px;
+        font-weight: 200;
+        width: 70%;
+    }
+}
+
+
+/* tablets */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    .container2nd {
+        /* width: 100%; */
+        margin: 58% 0 0 0;
+    }
+}
+
+/* laptops */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .container2nd {
+        /* width: 100%; */
+        margin: 70% 0 0 0;
+    }
+}
+
+
+/* large monitor */
+@media screen and (min-width: 1441px) {
+    .container2nd {
+        /* width: 100%; */
+        margin: 65% 0 0 0;
+    }
+}
+
+.ownerimg {
+    position: relative;
+    width: 100%;
+}
+
+.ownerimg img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+
+.consultmamun {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    color: #ffffff;
+    /* z-index: 100; */
+    text-transform: capitalize;
+    font-family: "Titillium Web", serif;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.consultantandowner {
+    /* font-size: 1rem; */
+    font-weight: 20;
+    /* letter-spacing: 0px; */
+    /* line-height: 14px; */
+    width: 70%;
+
 }
