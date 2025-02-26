@@ -219,3 +219,16 @@ document.querySelector(".administrators").addEventListener("click", function() {
 
   
   
+document.querySelector(".see-more-btn-samitivej").addEventListener("click", function() {
+    let fullText = document.querySelector(".full-text-samitivej");
+    let btn = this;
+  
+    if (fullText.classList.contains("show-samitivej")) {
+      fullText.classList.remove("show-samitivej");
+      btn.textContent = "See More";
+    } else {
+      fullText.classList.add("show-samitivej");
+      btn.textContent = "See Less";
+    }
+  });
+  
