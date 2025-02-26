@@ -33,9 +33,9 @@ body {
   
   @font-face {
     font-family: 'Satoshi-VariableItalic';
-    src: url('../fonts/Satoshi-VariableItalic.woff2') format('woff2'),
-         url('../fonts/Satoshi-VariableItalic.woff') format('woff'),
-         url('../fonts/Satoshi-VariableItalic.ttf') format('truetype');
+    src: url('fonts/Satoshi-VariableItalic.woff2') format('woff2'),
+         url('fonts/Satoshi-VariableItalic.woff') format('woff'),
+         url('fonts/Satoshi-VariableItalic.ttf') format('truetype');
          font-weight: 300 900;
          font-display: swap;
          font-style: italic;
@@ -44,9 +44,9 @@ body {
   
   @font-face {
     font-family: 'Satoshi-Light';
-    src: url('../fonts/Satoshi-Light.woff2') format('woff2'),
-         url('../fonts/Satoshi-Light.woff') format('woff'),
-         url('../fonts/Satoshi-Light.ttf') format('truetype');
+    src: url('fonts/Satoshi-Light.woff2') format('woff2'),
+         url('fonts/Satoshi-Light.woff') format('woff'),
+         url('fonts/Satoshi-Light.ttf') format('truetype');
          font-weight: 300;
          font-display: swap;
          font-style: normal;
@@ -55,9 +55,9 @@ body {
   
   @font-face {
     font-family: 'Satoshi-LightItalic';
-    src: url('../fonts/Satoshi-LightItalic.woff2') format('woff2'),
-         url('../fonts/Satoshi-LightItalic.woff') format('woff'),
-         url('../fonts/Satoshi-LightItalic.ttf') format('truetype');
+    src: url('fonts/Satoshi-LightItalic.woff2') format('woff2'),
+         url('fonts/Satoshi-LightItalic.woff') format('woff'),
+         url('fonts/Satoshi-LightItalic.ttf') format('truetype');
          font-weight: 300;
          font-display: swap;
          font-style: italic;
@@ -66,9 +66,9 @@ body {
   
   @font-face {
     font-family: 'Satoshi-Regular';
-    src: url('../fonts/Satoshi-Regular.woff2') format('woff2'),
-         url('../fonts/Satoshi-Regular.woff') format('woff'),
-         url('../fonts/Satoshi-Regular.ttf') format('truetype');
+    src: url('fonts/Satoshi-Regular.woff2') format('woff2'),
+         url('fonts/Satoshi-Regular.woff') format('woff'),
+         url('fonts/Satoshi-Regular.ttf') format('truetype');
          font-weight: 400;
          font-display: swap;
          font-style: normal;
@@ -77,9 +77,9 @@ body {
   
   @font-face {
     font-family: 'Satoshi-Italic';
-    src: url('../fonts/Satoshi-Italic.woff2') format('woff2'),
-         url('../fonts/Satoshi-Italic.woff') format('woff'),
-         url('../fonts/Satoshi-Italic.ttf') format('truetype');
+    src: url('fonts/Satoshi-Italic.woff2') format('woff2'),
+         url('fonts/Satoshi-Italic.woff') format('woff'),
+         url('fonts/Satoshi-Italic.ttf') format('truetype');
          font-weight: 400;
          font-display: swap;
          font-style: italic;
@@ -88,9 +88,9 @@ body {
   
   @font-face {
     font-family: 'Satoshi-Medium';
-    src: url('../fonts/Satoshi-Medium.woff2') format('woff2'),
-         url('../fonts/Satoshi-Medium.woff') format('woff'),
-         url('../fonts/Satoshi-Medium.ttf') format('truetype');
+    src: url('fonts/Satoshi-Medium.woff2') format('woff2'),
+         url('fonts/Satoshi-Medium.woff') format('woff'),
+         url('fonts/Satoshi-Medium.ttf') format('truetype');
          font-weight: 500;
          font-display: swap;
          font-style: normal;
@@ -99,9 +99,9 @@ body {
   
   @font-face {
     font-family: 'Satoshi-MediumItalic';
-    src: url('../fonts/Satoshi-MediumItalic.woff2') format('woff2'),
-         url('../fonts/Satoshi-MediumItalic.woff') format('woff'),
-         url('../fonts/Satoshi-MediumItalic.ttf') format('truetype');
+    src: url('fonts/Satoshi-MediumItalic.woff2') format('woff2'),
+         url('fonts/Satoshi-MediumItalic.woff') format('woff'),
+         url('fonts/Satoshi-MediumItalic.ttf') format('truetype');
          font-weight: 500;
          font-display: swap;
          font-style: italic;
@@ -121,9 +121,9 @@ body {
   
   @font-face {
     font-family: 'Satoshi-BoldItalic';
-    src: url('../fonts/Satoshi-BoldItalic.woff2') format('woff2'),
-         url('../fonts/Satoshi-BoldItalic.woff') format('woff'),
-         url('../fonts/Satoshi-BoldItalic.ttf') format('truetype');
+    src: url('fonts/Satoshi-BoldItalic.woff2') format('woff2'),
+         url('fonts/Satoshi-BoldItalic.woff') format('woff'),
+         url('fonts/Satoshi-BoldItalic.ttf') format('truetype');
          font-weight: 700;
          font-display: swap;
          font-style: italic;
@@ -132,9 +132,9 @@ body {
   
   @font-face {
     font-family: 'Satoshi-Black';
-    src: url('../fonts/Satoshi-Black.woff2') format('woff2'),
-         url('../fonts/Satoshi-Black.woff') format('woff'),
-         url('../fonts/Satoshi-Black.ttf') format('truetype');
+    src: url('fonts/Satoshi-Black.woff2') format('woff2'),
+         url('fonts/Satoshi-Black.woff') format('woff'),
+         url('fonts/Satoshi-Black.ttf') format('truetype');
          font-weight: 900;
          font-display: swap;
          font-style: normal;
@@ -143,9 +143,9 @@ body {
   
   @font-face {
     font-family: 'Satoshi-BlackItalic';
-    src: url('../fonts/Satoshi-BlackItalic.woff2') format('woff2'),
-         url('../fonts/Satoshi-BlackItalic.woff') format('woff'),
-         url('../fonts/Satoshi-BlackItalic.ttf') format('truetype');
+    src: url('fonts/Satoshi-BlackItalic.woff2') format('woff2'),
+         url('fonts/Satoshi-BlackItalic.woff') format('woff'),
+         url('fonts/Satoshi-BlackItalic.ttf') format('truetype');
          font-weight: 900;
          font-display: swap;
          font-style: italic;
@@ -687,7 +687,7 @@ textarea.form-input {
     /* z-index: 100; */
     text-transform: capitalize;
     font-family: "Titillium Web", serif;
-    padding: 10px 20px;
+    padding: 10px 10px;
     font-size: 1.4rem;
     font-weight: 600;
     text-align: left;
@@ -695,9 +695,194 @@ textarea.form-input {
 
 .consultantandowner {
     /* font-size: 1rem; */
-    font-weight: 20;
+    font-weight: 200;
     /* letter-spacing: 0px; */
     /* line-height: 14px; */
     width: 70%;
 
 }
+.consultantandownerdegree {
+    font-size: 13px;
+    font-weight: 500;
+    /* letter-spacing: 0px; */
+    /* line-height: 14px; */
+    color: #ffffff;
+    margin: 28px 0 0 0;
+    background-color: #444f5c8e;
+    width: 350px;
+    padding: 2px;
+}
+
+
+.affiliation-container {
+    /* background: white; */
+    padding: 40px 5px 0 5px;
+    border-radius: 12px;
+    /* box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); */
+    text-align: left;
+    max-width: 600px;
+    /* font-family: 'Satoshi-Bold', sans-serif; */
+    font-family: "Titillium Web", serif;
+    text-transform: capitalize;
+}
+.affiliation-title {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.affiliation-list {
+    list-style: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+.affiliation-item {
+    font-size: 16px;
+    color: #253544;
+    margin: 10px 0;
+    /* font-family: 'Satoshi-Medium', sans-serif; */
+    font-family: "Titillium Web", serif;
+}
+
+.affiliate-hospitals-list-details {
+    padding: 30px 0 0 10px;
+    font-family: "Titillium Web", sans-serif;
+    text-transform: capitalize;
+    color: #2c3e50;
+}
+
+.affiliate-hospitals-list-details img{
+    width: 170px;
+}
+
+.img-Samitivej-Sukhumvit-Hospital-and-Samitivej-Srinakarin-Hospital-holder {
+    width: 400px;
+    max-width: 95%;
+    padding: 5px 0 5px 5px;
+    /* height: 70px; */
+    background: linear-gradient(to right, rgb(181, 176, 129), rgba(255, 0, 0, 0));
+    border-top-right-radius: 38px;
+    border-top-left-radius: 1px;
+    border-bottom-right-radius: 38px;  
+    border-bottom-left-radius: 1px;  
+}
+.img-Phyathai-2-Hospital-holder {
+    width: 400px;
+    max-width: 95%;
+    padding: 5px 0 5px 5px;
+    /* height: 70px; */
+    background: linear-gradient(to right, rgb(234, 248, 240), rgba(255, 0, 0, 0));
+    border-top-right-radius: 38px;
+    border-top-left-radius: 1px;
+    border-bottom-right-radius: 38px;  
+    border-bottom-left-radius: 1px;  
+}
+.img-ruamjairak-hospital-holder {
+    width: 400px;
+    max-width: 95%;
+    padding: 5px 0 5px 5px;
+    /* height: 70px; */
+    background: linear-gradient(to right, rgb(168, 201, 217), rgba(255, 0, 0, 0));
+    border-top-right-radius: 38px;
+    border-top-left-radius: 1px;
+    border-bottom-right-radius: 38px;  
+    border-bottom-left-radius: 1px;  
+}
+.img-thonburi-bamrungmuang-hospital-holder {
+    width: 400px;
+    max-width: 95%;
+    padding: 5px 0 5px 5px;
+    /* height: 70px; */
+    background: linear-gradient(to right, rgb(242, 232, 140), rgba(255, 0, 0, 0));
+    border-top-right-radius: 38px;
+    border-top-left-radius: 1px;
+    border-bottom-right-radius: 38px;  
+    border-bottom-left-radius: 1px;  
+}
+.img-bangkok-hospital-pattaya-holder {
+    width: 400px;
+    max-width: 95%;
+    padding: 5px 0 5px 5px;
+    /* height: 70px; */
+    background: linear-gradient(to right, rgb(177, 236, 240), rgba(255, 0, 0, 0));
+    border-top-right-radius: 38px;
+    border-top-left-radius: 1px;
+    border-bottom-right-radius: 38px;  
+    border-bottom-left-radius: 1px;  
+}
+.img-panacee-medical-center-hospital-holder {
+    width: 400px;
+    max-width: 95%;
+    padding: 5px 0 5px 5px;
+    /* height: 70px; */
+    background: linear-gradient(to right, rgb(223, 222, 213), rgba(255, 0, 0, 0));
+    border-top-right-radius: 38px;
+    border-top-left-radius: 1px;
+    border-bottom-right-radius: 38px;  
+    border-bottom-left-radius: 1px;  
+}
+
+
+
+
+
+.content-samitivej {
+    max-width: 600px;
+  }
+  
+  .full-text-samitivej {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 1s ease, max-height 1s ease;
+  }
+  
+  .show-samitivej {
+    opacity: 1;
+    max-height: 500px; /* Adjust based on content length */
+  }
+  
+  .see-more-btn-samitivej {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: linear-gradient(90deg, #ff7eb3, #ff758c);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .see-more-btn-samitivej:hover {
+    background: linear-gradient(90deg, #ff758c, #ff7eb3);
+    transform: scale(1.05);
+  }
+  
+  .hospital-name-samitivej {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0 25px 0;
+    /* line-height: 25px; */
+  }
+
+   .firstone {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .key-services-lists ul {
+    list-style-type: disc; 
+    padding-left: 20px; 
+}
+
+
+  .full-text-samitivej {
+    /* margin: 0 0 0 200px; */
+    padding: 0 0 0 10px;
+  }
+
+  .samitivej-key-services {
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+    font-weight: 600;
+  }
