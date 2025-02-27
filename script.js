@@ -60,26 +60,26 @@ window.addEventListener("scroll", function () {
 
 // /////// form input red and black //////////
 
-document.getElementById("contactForm").addEventListener("submit", function(event) {
-    event.preventDefault();
+// document.getElementById("contactForm").addEventListener("submit", function(event) {
+//     event.preventDefault();
 
-    let inputs = document.querySelectorAll(".form-input");
-    let isValid = true;
+//     let inputs = document.querySelectorAll(".form-input");
+//     let isValid = true;
 
-    inputs.forEach(input => {
-        if (input.value.trim() === "") {
-            input.classList.add("error");
-            isValid = false;
-        } else {
-            input.classList.remove("error");
-        }
-    });
+//     inputs.forEach(input => {
+//         if (input.value.trim() === "") {
+//             input.classList.add("error");
+//             isValid = false;
+//         } else {
+//             input.classList.remove("error");
+//         }
+//     });
 
-    if (isValid) {
-        alert("Form submitted successfully!");
-        this.reset();
-    }
-});
+//     if (isValid) {
+//         alert("Form submitted successfully!");
+//         this.reset();
+//     }
+// });
 
 
 // /////// form input red and black end ///////////
@@ -231,4 +231,39 @@ document.querySelector(".see-more-btn-samitivej").addEventListener("click", func
       btn.textContent = "See Less";
     }
   });
+
   
+  
+document.querySelector(".see-more-btn-phyathai").addEventListener("click", function() {
+    let fullText = document.querySelector(".full-text-phyathai");
+    let btn = this;
+  
+    if (fullText.classList.contains("show-phyathai")) {
+      fullText.classList.remove("show-phyathai");
+      btn.textContent = "See More";
+    } else {
+      fullText.classList.add("show-phyathai");
+      btn.textContent = "See Less";
+    }
+  });
+  
+
+
+  ////////form submit////////
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyxAzYRv2eonSHBuHXZVzVStveH_gRl4g41ntejtRkODtDPCETtAl56QatR25XKF99E/exec'
+
+const form = document.forms['contact-form']
+
+form.addEventListener('submit', e => {
+  
+  e.preventDefault()
+  
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  .then(response => alert("Thank you! Form is submitted" ))
+  .then(() => { window.location.reload(); })
+  .catch(error => console.error('Error!', error.message))
+})
+
+
+  ////////form submit////////
