@@ -759,29 +759,40 @@ textarea.form-input {
     max-width: 95%;
     padding: 5px 0 5px 5px;
     /* height: 70px; */
-    background: linear-gradient(to right, rgb(181, 176, 129), rgba(255, 0, 0, 0));
+    /* background: linear-gradient(to right, rgb(181, 176, 129), rgba(255, 0, 0, 0)); */
     border-top-right-radius: 38px;
     border-top-left-radius: 1px;
     border-bottom-right-radius: 38px;  
     border-bottom-left-radius: 1px;  
 }
+
+.img-Phyathai-2-Hospital{
+    margin: 44px 0 0 0;
+}
+
+
 .img-Phyathai-2-Hospital-holder {
     width: 400px;
     max-width: 95%;
     padding: 5px 0 5px 5px;
     /* height: 70px; */
-    background: linear-gradient(to right, rgb(234, 248, 240), rgba(255, 0, 0, 0));
+    /* background: linear-gradient(to right, rgb(234, 248, 240), rgba(255, 0, 0, 0)); */
     border-top-right-radius: 38px;
     border-top-left-radius: 1px;
     border-bottom-right-radius: 38px;  
     border-bottom-left-radius: 1px;  
 }
+
+.img-Phyathai-2-Hospital-holder img {
+    height: 55px;
+}
+
 .img-ruamjairak-hospital-holder {
     width: 400px;
     max-width: 95%;
     padding: 5px 0 5px 5px;
     /* height: 70px; */
-    background: linear-gradient(to right, rgb(168, 201, 217), rgba(255, 0, 0, 0));
+    /* background: linear-gradient(to right, rgb(168, 201, 217), rgba(255, 0, 0, 0)); */
     border-top-right-radius: 38px;
     border-top-left-radius: 1px;
     border-bottom-right-radius: 38px;  
@@ -792,7 +803,7 @@ textarea.form-input {
     max-width: 95%;
     padding: 5px 0 5px 5px;
     /* height: 70px; */
-    background: linear-gradient(to right, rgb(242, 232, 140), rgba(255, 0, 0, 0));
+    /* background: linear-gradient(to right, rgb(242, 232, 140), rgba(255, 0, 0, 0)); */
     border-top-right-radius: 38px;
     border-top-left-radius: 1px;
     border-bottom-right-radius: 38px;  
@@ -803,7 +814,7 @@ textarea.form-input {
     max-width: 95%;
     padding: 5px 0 5px 5px;
     /* height: 70px; */
-    background: linear-gradient(to right, rgb(177, 236, 240), rgba(255, 0, 0, 0));
+    /* background: linear-gradient(to right, rgb(177, 236, 240), rgba(255, 0, 0, 0)); */
     border-top-right-radius: 38px;
     border-top-left-radius: 1px;
     border-bottom-right-radius: 38px;  
@@ -814,7 +825,7 @@ textarea.form-input {
     max-width: 95%;
     padding: 5px 0 5px 5px;
     /* height: 70px; */
-    background: linear-gradient(to right, rgb(223, 222, 213), rgba(255, 0, 0, 0));
+    /* background: linear-gradient(to right, rgb(223, 222, 213), rgba(255, 0, 0, 0)); */
     border-top-right-radius: 38px;
     border-top-left-radius: 1px;
     border-bottom-right-radius: 38px;  
@@ -829,7 +840,7 @@ textarea.form-input {
     max-width: 600px;
   }
   
-  .full-text-samitivej {
+  .full-text-samitivej, .full-text-phyathai {
     opacity: 0;
     max-height: 0;
     overflow: hidden;
@@ -838,14 +849,20 @@ textarea.form-input {
   
   .show-samitivej {
     opacity: 1;
-    max-height: 500px; /* Adjust based on content length */
+    max-height: 3700px; /* Adjust based on content length */
+  }
+  .show-phyathai {
+    opacity: 1;
+    max-height: 2500px; /* Adjust based on content length */
   }
   
-  .see-more-btn-samitivej {
+  .see-more-btn-samitivej, .see-more-btn-phyathai {
     display: inline-block;
+    font-family: "Titillium Web", sans-serif;
     margin-top: 10px;
     padding: 8px 12px;
-    background: linear-gradient(90deg, #ff7eb3, #ff758c);
+    /* background: linear-gradient(90deg, #ff7eb3, #ff758c); */
+    background: linear-gradient(90deg, #6b69ff, #32196c);
     color: white;
     border: none;
     cursor: pointer;
@@ -853,8 +870,9 @@ textarea.form-input {
     transition: background 0.3s ease, transform 0.3s ease;
   }
   
-  .see-more-btn-samitivej:hover {
-    background: linear-gradient(90deg, #ff758c, #ff7eb3);
+  .see-more-btn-samitivej:hover, .see-more-btn-phyathai:hover {
+    /* background: linear-gradient(90deg, #ff758c, #ff7eb3); */
+    background: linear-gradient(90deg, #32196c, #6b69ff);
     transform: scale(1.05);
   }
   
@@ -875,11 +893,6 @@ textarea.form-input {
     padding-left: 20px; 
 }
 
-
-  .full-text-samitivej {
-    /* margin: 0 0 0 200px; */
-    padding: 0 0 0 10px;
-  }
 
   .samitivej-key-services {
     font-size: 20px;
