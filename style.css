@@ -296,7 +296,7 @@ body {
 
 .customerservice {
     position: fixed;
-    right: -48px;
+    right: -58px;
     bottom: 80px;
     transition: right 0.5s ease-in-out, width 0.3s ease-in-out;
     cursor: pointer;
@@ -311,7 +311,7 @@ body {
     font-family: 'Satoshi-Bold', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    color: #03306b;
+    color: #a42a3b;
 }
 
 
@@ -428,7 +428,7 @@ textarea.form-input {
 .submit-btn {
     width: 100%;
     padding: 12px;
-    background-color: #007bff;
+    background-color: #a22e47;
     color: white;
     border: none;
     border-radius: 6px;
@@ -438,7 +438,7 @@ textarea.form-input {
 }
 
 .submit-btn:hover {
-    background-color: #0056b3;
+    background-color: #7e3e45;
 }
 
 .error {
