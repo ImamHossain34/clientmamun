@@ -51,7 +51,7 @@ window.addEventListener("scroll", function () {
     if (window.scrollY > 30) { // Change 50 to any scroll threshold you prefer
         customerService.style.right = "10px";
     } else {
-        customerService.style.right = "-48px";
+        customerService.style.right = "-58px";
     }
 });
 
