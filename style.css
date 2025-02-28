@@ -791,6 +791,7 @@ textarea.form-input {
     width: 400px;
     max-width: 95%;
     padding: 5px 0 5px 5px;
+    margin: 37px 0 0 0;
     /* height: 70px; */
     /* background: linear-gradient(to right, rgb(168, 201, 217), rgba(255, 0, 0, 0)); */
     border-top-right-radius: 38px;
@@ -802,6 +803,7 @@ textarea.form-input {
     width: 400px;
     max-width: 95%;
     padding: 5px 0 5px 5px;
+    margin: 37px 0 0 0;
     /* height: 70px; */
     /* background: linear-gradient(to right, rgb(242, 232, 140), rgba(255, 0, 0, 0)); */
     border-top-right-radius: 38px;
@@ -813,6 +815,7 @@ textarea.form-input {
     width: 400px;
     max-width: 95%;
     padding: 5px 0 5px 5px;
+    margin: 37px 0 0 0;
     /* height: 70px; */
     /* background: linear-gradient(to right, rgb(177, 236, 240), rgba(255, 0, 0, 0)); */
     border-top-right-radius: 38px;
@@ -824,6 +827,7 @@ textarea.form-input {
     width: 400px;
     max-width: 95%;
     padding: 5px 0 5px 5px;
+    margin: 37px 0 0 0;
     /* height: 70px; */
     /* background: linear-gradient(to right, rgb(223, 222, 213), rgba(255, 0, 0, 0)); */
     border-top-right-radius: 38px;
@@ -840,7 +844,7 @@ textarea.form-input {
     max-width: 600px;
   }
   
-  .full-text-samitivej, .full-text-phyathai {
+  .full-text-samitivej, .full-text-phyathai, .full-text-ruamjairak, .full-text-bamrungmuang, .full-text-pattaya, .full-text-panacee {
     opacity: 0;
     max-height: 0;
     overflow: hidden;
@@ -855,8 +859,24 @@ textarea.form-input {
     opacity: 1;
     max-height: 2500px; /* Adjust based on content length */
   }
+  .show-ruamjairak {
+    opacity: 1;
+    max-height: 2500px; /* Adjust based on content length */
+  }
+  .show-bamrungmuang {
+    opacity: 1;
+    max-height: 2500px; /* Adjust based on content length */
+  }
+  .show-pattaya {
+    opacity: 1;
+    max-height: 2500px; /* Adjust based on content length */
+  }
+  .show-panacee {
+    opacity: 1;
+    max-height: 2500px; /* Adjust based on content length */
+  }
   
-  .see-more-btn-samitivej, .see-more-btn-phyathai {
+  .see-more-btn-samitivej, .see-more-btn-phyathai, .see-more-btn-ruamjairak, .see-more-btn-bamrungmuang, .see-more-btn-pattaya,  .see-more-btn-panacee {
     display: inline-block;
     font-family: "Titillium Web", sans-serif;
     margin-top: 10px;
@@ -870,7 +890,7 @@ textarea.form-input {
     transition: background 0.3s ease, transform 0.3s ease;
   }
   
-  .see-more-btn-samitivej:hover, .see-more-btn-phyathai:hover {
+  .see-more-btn-samitivej:hover, .see-more-btn-phyathai:hover, .see-more-btn-ruamjairak:hover, .see-more-btn-bamrungmuang:hover, .see-more-btn-pattaya:hover, .see-more-btn-panacee:hover {
     /* background: linear-gradient(90deg, #ff758c, #ff7eb3); */
     background: linear-gradient(90deg, #32196c, #6b69ff);
     transform: scale(1.05);
