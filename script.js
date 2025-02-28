@@ -217,7 +217,7 @@ document.querySelector(".administrators").addEventListener("click", function() {
 });
 
 
-  
+  //////////////////////////
   
 document.querySelector(".see-more-btn-samitivej").addEventListener("click", function() {
     let fullText = document.querySelector(".full-text-samitivej");
@@ -243,6 +243,62 @@ document.querySelector(".see-more-btn-phyathai").addEventListener("click", funct
       btn.textContent = "See More";
     } else {
       fullText.classList.add("show-phyathai");
+      btn.textContent = "See Less";
+    }
+  });
+  
+
+document.querySelector(".see-more-btn-ruamjairak").addEventListener("click", function() {
+    let fullText = document.querySelector(".full-text-ruamjairak");
+    let btn = this;
+  
+    if (fullText.classList.contains("show-ruamjairak")) {
+      fullText.classList.remove("show-ruamjairak");
+      btn.textContent = "See More";
+    } else {
+      fullText.classList.add("show-ruamjairak");
+      btn.textContent = "See Less";
+    }
+  });
+  
+
+document.querySelector(".see-more-btn-bamrungmuang").addEventListener("click", function() {
+    let fullText = document.querySelector(".full-text-bamrungmuang");
+    let btn = this;
+  
+    if (fullText.classList.contains("show-bamrungmuang")) {
+      fullText.classList.remove("show-bamrungmuang");
+      btn.textContent = "See More";
+    } else {
+      fullText.classList.add("show-bamrungmuang");
+      btn.textContent = "See Less";
+    }
+  });
+  
+
+document.querySelector(".see-more-btn-pattaya").addEventListener("click", function() {
+    let fullText = document.querySelector(".full-text-pattaya");
+    let btn = this;
+  
+    if (fullText.classList.contains("show-pattaya")) {
+      fullText.classList.remove("show-pattaya");
+      btn.textContent = "See More";
+    } else {
+      fullText.classList.add("show-pattaya");
+      btn.textContent = "See Less";
+    }
+  });
+  
+
+document.querySelector(".see-more-btn-panacee").addEventListener("click", function() {
+    let fullText = document.querySelector(".full-text-panacee");
+    let btn = this;
+  
+    if (fullText.classList.contains("show-panacee")) {
+      fullText.classList.remove("show-panacee");
+      btn.textContent = "See More";
+    } else {
+      fullText.classList.add("show-panacee");
       btn.textContent = "See Less";
     }
   });
