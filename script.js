@@ -323,3 +323,35 @@ form.addEventListener('submit', e => {
 
 
   ////////form submit////////
+
+
+
+  //////////go-up///////////
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const goUpButton = document.querySelector(".go-up");
+    let scrollTimeout;
+
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 205) {
+            goUpButton.style.opacity = "1";
+            goUpButton.style.visibility = "visible";
+        } else {
+            goUpButton.style.opacity = "0";
+            goUpButton.style.visibility = "hidden";
+        }
+
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(() => {
+            goUpButton.style.opacity = "0";
+            goUpButton.style.visibility = "hidden";
+        }, 1000); // Hides button 1s after scrolling stops
+    });
+
+    goUpButton.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+});
+
+
+  //////////go-up///////////
