@@ -619,12 +619,14 @@ textarea.form-input {
 
 .container2ndflex {
     display: flex;
+    justify-content: center;
+    margin: 5px;
 }
 
 .container2nd {
     width: 100%;
     margin: 60% 0 0 0;
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 
@@ -753,6 +755,59 @@ textarea.form-input {
 .affiliate-hospitals-list-details img{
     width: 170px;
 }
+
+
+.hospial-catalogue {
+    background-color: #fff;
+    height: 40vw;
+    max-height: 300px;
+    width: 100%;
+    max-width: 700px;
+    position: relative;
+    margin: 40px 0 40px 0;
+}
+
+.hospial-catalogue img {
+    width: 35%;
+}
+
+
+.hospial-catalogue-img-Samitivej-hospital img{
+    position: absolute;
+
+}
+
+.hospial-catalogue-img-phyathai2-hospital img{
+    position: absolute;
+    right: 0;
+}
+
+.hospial-catalogue-img-ruamjairak-hospital img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.hospial-catalogue-img-thonburi-bamrungmuang-hospital img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.hospial-catalogue-img-bangkok-hospital-pattaya img{
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translate(0%,-50%)
+}
+
+.hospial-catalogue-img-panacee-medical-center-hospital img{
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translate(0%,-50%)
+}
+
 
 .img-Samitivej-Sukhumvit-Hospital-and-Samitivej-Srinakarin-Hospital-holder {
     width: 400px;
@@ -918,4 +973,21 @@ textarea.form-input {
     font-size: 20px;
     margin: 20px 0 10px 0;
     font-weight: 600;
+  }
+
+
+  .go-up {
+    background-color: #fff;
+    width: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    position: fixed;
+    /* z-index: 1; */
+    bottom: 10px;
+    right: 10px;
+    opacity: 0; /* Hidden by default */
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    cursor: pointer;
   }
